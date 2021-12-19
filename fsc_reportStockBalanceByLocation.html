@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inventory Control System: Report</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/table.css">
+	<link rel="stylesheet" type="text/css" href="css/icons.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body style="background: #F9F9F9;">
+<div class="mainwrapper">
+	<header>
+		<div class="container">
+				<div class="pull-left">
+					<h1 class="myanBooking">Inventory Control System</h1>
+				</div>
+				<div class="pull-right">
+					<ul class="userArea">
+						<li class="dropdown">
+							<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">
+								<span class="icons_bell"></span>
+								<span class="noty">3</span>
+							</a>
+							<ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
+			                    <ul class="dropdown-menu"  role="menu" aria-labelledby="drop3"><li role="presentation"><a role="menuitem" tabindex="-1" href="#">Log Out</a></li></ul>
+                      		</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" id="drop3" role="button" class="dropdown-toggle" data-toggle="dropdown">	<!-- user name<b class="caret"></b> -->
+								<!-- <span class="icons_userArea"></span>
+								<span class="usernameText">user name</span> -->				
+								<span class="icons_userArea"></span>
+								<span class="usernameText">user name</span>
+								<span class="icons_downArrUser"></span>
+							</a>
+								<ul class="dropdown-menu"  role="menu" aria-labelledby="drop3"><li role="presentation"><a role="menuitem" tabindex="-1" href="#">Log Out</a></li></ul>
+						</li>
+					</ul>
+				</div>
+		</div>
+	</header>
+ 	<div class="subHeader">
+		<div class="container">
+			<ul class="mainMenu">
+				<li>
+					<a href="DashBoard.html" class="borderL">
+					<i class="menuIconContainer icons_dash"></i>dashboard</a>
+				</li>
+				<li>
+                    <a href="#">
+                        <i class="menuIconContainer icons_settings"></i>setting<span class="caret caretCtrl"></span>
+                    </a>
+                    <ul class="viewstocksale_subMenu submenu">
+                        <li><a href="fsc_settSupplier.html">supplier</a></li>
+                        <li><a href="fsc_settlocation.html">location</a></li>
+                        <li><a href="fsc_setUnitOfmeasurement.html">unit of measurement</a></li>
+                        <li><a href="fsc_settcurrency.html">currrency</a></li>
+                        <li><a href="fsc_settCategory.html">category</a></li>
+                        <li><a href="fsc_settGroup.html">group</a></li>
+                        <li><a href="fsc_settClass.html">class</a></li>
+                        <li><a href="fsc_settDepartment.html">department</a></li>
+                        <li><a href="fsc_settPosition.html">position</a></li>
+                        <li><a href="fsc_settStaff.html">staff</a></li>
+                    </ul>
+                </li>
+				<li>
+					<a href="#">
+					    <i class="menuIconContainer icons_products_active"></i>stock<span class="caret caretCtrl"></span>
+                    </a>
+                    <ul class="viewstocksale_subMenu submenu">
+                        <li><a href="fsc_stock.html">stock</a></li>
+                        <li><a href="fsc_stockOpeningBalance.html">opening balance</a></li>
+                        <li><a href="fsc_stockDepreciation.html">depreciation</a></li>
+                        <li><a href="fsc_stockBarCode.html">Bar Code</a></li>
+                    </ul>
+				</li>
+				<li>
+					<a href="#">
+					    <i class="menuIconContainer icons_financial"></i>purchasing<span class="caret caretCtrl"></span>
+                    </a>
+                    <ul class="viewstocksale_subMenu submenu">
+                        <li><a href="fsc_purchaseOrder.html">purchase order</a></li>
+                        <li><a href="fsc_purchaseWithDirect.html">purchase with direct</a></li>
+                        <li><a href="fsc_purchaseWithPurchaseOrder.html">purchase with purchase order</a></li>
+                    </ul>
+				</li>
+				<li>
+					<a href="#">
+					    <i class="menuIconContainer icons_operation"></i>fixed asset control<span class="caret caretCtrl">
+                    </a>
+                    <ul class="viewstocksale_subMenu submenu">
+                        <li><a href="fsc_tranTransferDone.html">transfer</a></li>
+                        <li><a href="fsc_tranDamage.html">damage</a></li>
+                        <li><a href="fsc_tranLoss.html">loss</a></li>
+                        <li><a href="fsc_tranOfficeUse.html">office use</a></li>
+                        <li><a href="fsc_tranStockTaking.html">stock taking</a></li>
+                        <li><a href="fsc_tranAdjustment.html">adjustment</a></li>
+                        <li><a href="fsc_tranRepair.html">repair</a></li>
+                    
+                    </ul>
+				</li>
+                <li>
+					<a href="#" class="active">
+						<i class="menuIconContainer icons_report"></i>reports<span class="caret caretCtrl">
+					</a>
+					<ul class="viewstocksale_subMenu submenu">
+						<li><a href="fsc_reportAll.html">All Report</a></li>
+					</ul>
+				</li>
+				<li>
+                    <a href="#">
+                        <i class="menuIconContainer icons_settings"></i>Security<span class="caret caretCtrl">
+                    </a>
+                    <ul class="viewstocksale_subMenu submenu">
+                        <li><a href="fsc_securitypermission.html">Role</a></li>
+                        <li><a href="fsc_securitypermission.html">Permission</a></li>
+                        <li><a href="fsc_securitychangepass.html">Change Password</a></li>
+                        <li><a href="fsc_auditTrail.html">Audit Trail</a></li>
+                    </ul>
+                </li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="tableWrapper">			
+			<div class="blueBar">Stock Balance Report By Location</div>
+			
+			<div class="row formrow">	
+					<div class="clearfix"></div>		
+					<div class="span1 changeprice_labelC"><label>From Location</label></div>
+					<div class="span3"><input type="text" class="form_border_radius_ctrl" value="L0001"/></div>
+					<div class="span1"><button class="search_btn">Search</button></div>	
+
+					
+					<div class="clearfix"></div>		
+					<div class="span1 changeprice_labelC"><label>To Location</label></div>
+					<div class="span3"><input type="text" class="form_border_radius_ctrl" value="L0002"/></div>
+					<div class="span1"><button class="search_btn">Search</button></div>			
+			</div>
+
+            <hr />
+            
+            <div class="row entry_btnRow">
+				<button class="bottomBtn btn submitBtn addNew">Search</button>
+                <button class="bottomBtn btn submitBtn addNew">Cancel</button>
+            </div>
+            <div class="row stockTable">
+				<table>
+					<tr class="header">
+						<td class="sr">Sr.</td>
+				
+						<td>Stock No</td>
+						<td>Quantity</td>
+						<td>Price</td>
+						<td>Amount</td>
+						
+						<td class="action">Action</td>		
+				    </tr> 
+					
+					<tr>
+						<td class="sr">1.</td>
+				
+						<td>C0001</td>
+						<td>G001</td>
+						<td>CL001</td>
+						<td>1</td>
+				
+						
+						<td>
+							<div class="iconsWrapper">
+									<a href="#"><i class="login_iconsContainer icons_edit"></i>
+									<span class="save">Edit</span></a>
+								</div>
+								<div class="iconsWrapper">
+									<a href="#"><i class="login_iconsContainer icons_delete"></i>
+									<span class="delete">Delete</span></a>
+								</div>
+						</td>
+					</tr>			
+					<tr>
+						<td class="sr">2.</td>
+					
+						<td>C0001</td>
+						<td>G001</td>
+						<td>CL001</td>
+						<td>1</td>
+						
+						<td>
+							<div class="iconsWrapper">
+									<a href="#"><i class="login_iconsContainer icons_edit"></i>
+									<span class="save">Edit</span></a>
+								</div>
+								<div class="iconsWrapper">
+									<a href="#"><i class="login_iconsContainer icons_delete"></i>
+									<span class="delete">Delete</span></a>
+								</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+            <hr />
+		
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="pull-left">
+				<span class="copyRight">Copyright &copy; 2020 FineDev Company</span>
+			</div>
+			<div class="pull-right footerRight">
+				<a href="#">Terms of use</a> <a href="#">Privacy</a>
+			</div>
+		</div>
+	</footer>
+    </div>    
+</body>	
+</html>

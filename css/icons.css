@@ -1,0 +1,234 @@
+.login_iconsContainer {
+	background-image		: url('../images/sprites_img.png');
+	background-repeat		: no-repeat;
+	display 				: inline-block; 
+	width					: 24px;
+	height 					: 24px;  
+}
+
+.icons_user {
+	background-position		: -6px -6px;
+	margin-top 				: 9px;
+}
+
+.icons_log {
+	background-position		: -6px -30px;
+	margin-top 				: 9px;
+}
+
+.icons_login {
+	background-position		: -10px -54px;
+	margin 					: -4px 3px 0 0;
+	float 					: left;
+}
+
+.icons_forgot {
+	background-position		: -6px -78px;
+	margin 					: 6px 5px 0 0;
+	float 					: left;
+}
+
+.icons_prices {
+	background-position		: -6px -103px;
+	margin 					: 2px 5px 0 0;
+	float 					: left;
+}
+
+.icons_import {
+	background-position		: -6px -127px;
+	margin 					: 2px 5px 0 0;
+	float 					: left;
+}
+
+.icons_export {
+	background-position		: -6px -151px;
+	margin 					: 2px 5px 0 0;
+	float 					: left;
+}
+
+.icons_addnew {
+	background-position		: -6px -175px;
+	margin 					: 2px 5px 0 0;
+	float 					: left;
+}
+
+.icons_delete {
+	background-position 	: -6px -198px;
+    float 					: left;
+}
+
+.icons_save {
+	background-position		: -6px -223px;
+	float 					: left;
+	margin-top 				: 5px;
+}
+
+.icons_edit {
+	background-position 	: -6px -246px;
+    float 					: left;
+}
+
+.icons_cal {
+	background-position		: -6px -271px;
+	float 					:left;
+	margin-top 				: 7px;
+	position 				: absolute;
+	margin-left 			: -30px;
+}
+
+.icons_checkin {
+	background-position		: -6px -295px;
+	float 					: left;
+	margin-right 			: 10px;
+}
+.icons_checkin_active {
+	background-position		: -6px -391px;
+	float 					: left;
+	margin-right 			: 10px;
+}
+
+.icons_checkout {
+	background-position		: -6px -319px;
+	float 					: left;
+	margin-right 			: 10px;
+}
+.icons_checkout_active {
+	background-position		: -6px -415px;
+	float 					: left;
+	margin-right			: 10px;
+}
+
+.icons_transfer {
+	background-position		: -6px -343px;
+	float 					: left;
+	margin-right  			: 10px;
+}
+.icons_transfer_active {
+	background-position		: -6px -439px;
+	float 					: left;
+	margin-right  			: 10px;
+}
+
+.icons_export {
+	background-position		: -6px -367px;
+	float 					: left;
+	margin-right:  			: 10px;
+}
+.icons_export_active {
+	background-position		: -6px -463px;
+	float 					: left;
+	margin-right:  			: 10px;
+}
+
+.icons_downArrUser {
+	display: inline-block;
+	margin-left: 10px;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 6px 5px 0 5px;
+	border-color: #ffffff transparent transparent transparent;
+	line-height: 0px;
+	_border-color: #ffffff #000000 #000000 #000000;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+
+.icons_userArea {
+	background-image		: url('../images/sprites_img.png');
+	background-repeat		: no-repeat;
+	width 					: 36px;
+	height  				: 36px;
+	display 				: inline-block; 
+	background-position 	: -161px -6px; 
+	float 					: left;
+	margin-right 			: 10px;
+}
+
+.icons_bell {
+	background-image		: url('../images/sprites_img.png');
+	background-repeat		: no-repeat;
+	width 					: 36px;
+	height  				: 36px;
+	display 				: inline-block;
+	background-position 	: -161px -42px; 
+	margin-top 				: 1px;
+}
+
+.menuIconContainer {
+	background-image		: url('../images/sprites_img.png');
+	background-repeat		: no-repeat;
+	display 				: inline-block;
+	float 					: left;
+	width 					: 36px;
+	height 					: 36px;
+}
+
+.icons_dash {
+	background-position 	: -89px -6px;
+	margin 					: 7px 5px 0 0;
+}
+
+.icons_dash_active {
+	background-position 	: -125px -6px;
+	margin 					: 7px 5px 0 0;
+}
+
+.icons_operation {
+	background-position 	: -89px -42px;
+	margin 					: 7px 5px 0 0;
+}
+
+.icons_operation_active {
+	background-position 	: -125px -42px;
+	margin 					: 7px 5px 0 0;
+}
+
+.icons_products {
+	background-position: -89px -78px;
+    margin: -10px 5px 0 0;
+}
+
+.icons_products_active {
+	background-position 	: -125px -78px;
+	margin 					: 7px 5px 0 0;
+}
+
+.icons_financial {
+	background-position 	: -89px -114px;
+	margin 					: 7px 5px 0 0;
+}
+
+.icons_financial_active {
+	background-position 	: -125px -114px;
+	margin 					: 7px 5px 0 0;
+}
+
+.icons_report {
+	background-position 	: -89px -150px;
+	margin 					: 7px 5px 0 0;
+}
+
+.icons_report_active {
+	background-position 	: -125px -150px;
+	margin 					: 7px 5px 0 0;
+}
+
+.icons_bRule {
+	background-position 	: -89px -186px;
+	margin 					: 7px 5px 0 0;
+}
+
+.icons_bRule_active {
+	background-position 	: -125px -186px;
+	margin 					: 7px 5px 0 0;
+}
+
+.icons_settings {
+	background-position 	: -89px -222px;
+	margin 					: 7px 5px 0 0;
+}
+
+.icons_settings_active {
+	background-position 	: -125px -222px;
+	margin 					: 7px 5px 0 0;
+}
